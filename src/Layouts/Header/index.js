@@ -24,10 +24,10 @@ export default function Header() {
           <NavLink to='/places'> Place to stay </NavLink>
         </li>
         <li>
-          <NavLink to='/'> NFTs </NavLink>
+          <NavLink to='#'> NFTs </NavLink>
         </li>
         <li>
-          <NavLink to='/'> Community </NavLink>
+          <NavLink to='#'> Community </NavLink>
         </li>
       </ul>
 
@@ -50,10 +50,10 @@ export default function Header() {
               <NavLink to='/places'> Place to stay </NavLink>
             </li>
             <li>
-              <NavLink to='/'> NFTs </NavLink>
+              <NavLink to='#'> NFTs </NavLink>
             </li>
             <li>
-              <NavLink to='/'> Community </NavLink>
+              <NavLink to='#'> Community </NavLink>
             </li>
           </ul>
 

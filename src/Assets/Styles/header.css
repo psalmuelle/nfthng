@@ -19,10 +19,9 @@ width:225px;
 .header__nav a{
     text-decoration: none;
     font-size: 18px;
+    color: #434343;
 }
-.header__nav a:active{
-    color: rgba(0, 0, 0, 0.849);
-}
+
 .header__cta{
     border: none;
     color: white;
@@ -61,12 +60,12 @@ background: white;
 .header__nav-mobile a{
     text-decoration: none;
     font-size: 18px;
-}
-.header__nav-mobile a:active{
-    color: rgba(0, 0, 0, 0.849);
+    color: #434343;
 }
 
+
 .header__cta-mobile{
+    cursor: pointer;
     border: none;
     color: white;
     padding: 1rem 2rem;
