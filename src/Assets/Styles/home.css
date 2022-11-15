@@ -1,0 +1,236 @@
+.home-page {
+  position: relative;
+}
+.hero__section {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4% 6% 0 6%;
+}
+.hero__section div {
+  max-width: 39rem;
+}
+.hero__section h1 {
+  font-weight: 400;
+  font-size: 56px;
+}
+.hero__section span {
+  color: #a02279;
+  font-weight: 700;
+}
+.hero__section p {
+  margin-top: 3rem;
+  font-size: 24px;
+}
+.hero__section form {
+  width: 90%;
+  margin-top: 2.5rem;
+}
+.hero__section input {
+  padding: 16px;
+  width: 60%;
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+}
+.hero__section input::placeholder {
+  color: #b8b8b8;
+}
+.hero__section button {
+  width: 40%;
+  padding: 16px 0;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.companies__logo {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 4rem auto;
+  margin-bottom: 3rem;
+  padding: 1rem 5%;
+}
+.companies__logo img {
+  width: 10rem;
+}
+.inspiration__home {
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+.cards__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 2.5rem 6%;
+  margin-bottom: 4rem;
+  justify-items: center;
+  gap: 2rem 0;
+}
+.second__hero {
+  display: flex;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 6%;
+}
+.second__hero div {
+  width: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.second__hero-header {
+  font-weight: 700;
+  font-size: 48px;
+}
+.second__hero p {
+  font-size: 18px;
+}
+.second__hero button {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+  color: #a02279;
+  padding: 0.8rem 2rem;
+  border: none;
+}
+.second__hero img {
+  max-width: 40rem;
+}
+.modal__container {
+  position: fixed;
+  z-index: 99999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(64, 64, 64, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.modal {
+  background: white;
+  max-width: 32rem;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 16px;
+  color: #333333;
+}
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #cfd8dc;
+}
+.modal__header img {
+  cursor: pointer;
+}
+.modal__texts {
+  padding: 0 20px;
+  margin-top: 8px;
+}
+
+.wallet__type-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  margin: 0px 20px;
+  margin-top: 0;
+  background: #f8f9fa;
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+}
+.walletconnect {
+  margin-bottom: 24px;
+}
+.wallet__type-modal figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.wallet__type-modal img {
+  width: 24px;
+}
+
+@media screen and (max-width: 1355px) {
+  .cards__container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .second__hero img {
+    max-width: 35rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1150px) {
+
+  .hero__section {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .hero__section img {
+    max-width: 100%;
+  }
+  .second__hero img {
+    max-width: 35rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .cards__container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .second__hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+  .second__hero div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  .cards__container {
+    grid-template-columns: 1fr;
+  }
+  .hero__section form {
+    width: 100%;
+  }
+  .hero__section h1 {
+    font-size: 48px;
+  }
+
+  .hero__section p {
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  .companies__logo img {
+    width: 6rem;
+  }
+}

@@ -1,67 +1,65 @@
-footer{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding: 2rem 5%;
-    margin: 0 auto;
-    background: #1D1D1E;
-    color: #F1F3F9;
-   
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 6%;
+  margin: 0 auto;
+  background: #1d1d1e;
+  color: #f1f3f9;
 }
-footer div{
-display: flex;
-justify-content: space-between;
+footer div {
+  display: flex;
+  justify-content: space-between;
 }
-footer ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-footer li{
-    font-size: 14px;
-    cursor: pointer;
+footer li {
+  font-size: 14px;
+  cursor: pointer;
 }
-footer h1{
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
-    margin-bottom: 0.5rem;
-    cursor: auto;
+footer h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 0.5rem;
+  cursor: auto;
 }
-.icons__container-footer{
-justify-content: space-between;
-height: 8rem;
+.icons__container-footer {
+  justify-content: space-between;
+  height: 8rem;
 }
-.social__container-footer{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    cursor: auto;
-    
+.social__container-footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: auto;
 }
-.social__container-footer img{
-    cursor: pointer;
+.social__container-footer img {
+  cursor: pointer;
 }
-.footer__logo{
-    width: 220px;
-    cursor: pointer;
+.footer__logo {
+  width: 220px;
+  cursor: pointer;
 }
-footer p{
-    padding-left: 12px;
+footer p {
+  padding-left: 12px;
 }
 
 @media screen and (max-width: 1000px) {
-.footer__logo{
+  .footer__logo {
     width: 200px;
-}
+  }
 }
 @media screen and (max-width: 650px) {
-    footer div{
-        flex-wrap: wrap;
-        gap: 2rem;
-    }
-    .icons__container-footer{
-        width: 100%;
-    }
-    }
+  footer div {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .icons__container-footer {
+    width: 100%;
+  }
+}

@@ -5,8 +5,9 @@ import Logo from "../../Assets/Images/logo.svg";
 import navOpenImg from "../../Assets/Images/open-bar.svg";
 import navCloseImg from "../../Assets/Images/close-bar.svg";
 
-export default function Header() {
+export default function Header(props) {
   const [open, setOpen] = useState(false);
+  
 
   const handleNavBar = () => {
     setOpen(!open);
@@ -31,7 +32,7 @@ export default function Header() {
         </li>
       </ul>
 
-      <button className='header__cta'>Connect wallet</button>
+      <button onClick={()=> props.setModal(true)} className='header__cta'>Connect wallet</button>
 
       <img
         onClick={handleNavBar}
@@ -57,7 +58,7 @@ export default function Header() {
             </li>
           </ul>
 
-          <button className='header__cta-mobile'>Connect wallet</button>
+          <button className='header__cta-mobile' onClick={()=> props.setModal(true)}>Connect wallet</button>
         </div>
       )}
     </header>

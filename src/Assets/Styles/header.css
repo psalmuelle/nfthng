@@ -1,10 +1,11 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 1.6rem 5%;
+    padding: 1.6rem 6%;
     position: sticky;
     top: 0;
     background: white;
+    z-index: 99999;
 }
 .header__logo{
 width:225px;
@@ -28,6 +29,7 @@ width:225px;
     padding: 1rem 2rem;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     border-radius: 10px;
+    cursor: pointer;
 }
 .mobile__menu{
     display: none ;
